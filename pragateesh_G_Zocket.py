@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup as b
 from transformers import pipeline as p
 su = p("summarization", model="sshleifer/distilbart-cnn-12-6") 
 
-a = 'https://en.wikipedia.org/wiki/Wikipedia:About'
+a = input("Enter a Valid Url : ")
 print(a)
 d = r.get(a)
 print(d)
